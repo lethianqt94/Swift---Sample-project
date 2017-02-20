@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ProximaNova-Regular.otf">
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+        <mutableArray key="ProximaNova-Semibold.otf">
+            <string>ProximaNova-Semibold</string>
+            <string>ProximaNova-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="PhotoCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhotoCell" id="KGk-i7-Jjw" customClass="PhotoTableViewCell" customModule="Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="501"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cadie3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L1Q-sT-sWR">
+                        <rect key="frame" x="16" y="16" width="46" height="46"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Douglas Jordan" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIZ-uD-hiC">
+                        <rect key="frame" x="74" y="21" width="300" height="18"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14.5"/>
+                        <color key="textColor" red="0.29803921568627451" green="0.68627450980392157" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weeding American" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGa-Bc-Djn">
+                        <rect key="frame" x="74" y="40" width="300" height="18"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                        <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Picture of the Day – Just Married Photography Copper and Rose Gold Bridal Styling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="b6S-px-GFw">
+                        <rect key="frame" x="15" y="300" width="340" height="38"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
+                        <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="450k Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH5-WS-CBt">
+                        <rect key="frame" x="20" y="421" width="80" height="17"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                        <color key="textColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="450 Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwk-Yx-Ye8">
+                        <rect key="frame" x="105" y="421" width="90" height="17"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                        <color key="textColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f7D-1c-A7H" userLabel="Buttons View">
+                        <rect key="frame" x="0.0" y="451" width="375" height="46"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOH-kv-9K7">
+                                <rect key="frame" x="30" y="14" width="57" height="16"/>
+                                <state key="normal" backgroundImage="btnSave.png"/>
+                                <connections>
+                                    <action selector="saveImage:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="CxE-ew-c6o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNO-Ds-SeL">
+                                <rect key="frame" x="145" y="11" width="75" height="22"/>
+                                <state key="normal" image="btnFavorite.png"/>
+                                <connections>
+                                    <action selector="saveFavoriteData:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="4rY-kE-Gyt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXF-hK-ShO">
+                                <rect key="frame" x="286" y="12" width="59" height="22"/>
+                                <state key="normal" image="btnShare.png"/>
+                                <connections>
+                                    <action selector="sharePhoto:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="gyr-om-G9C"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mE4-8O-DhK">
+                        <rect key="frame" x="15" y="345" width="360" height="65"/>
+                        <string key="text">Today we have something pretty for brides. We have found some beautiful copper and rose gold ideas to give you inspiration for your bridal look read more</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14.5"/>
+                        <color key="textColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cadie4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wjX-cN-IPp">
+                        <rect key="frame" x="0.0" y="75" width="375" height="209"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnFavorite" destination="yNO-Ds-SeL" id="TKY-Jj-IfU"/>
+                <outlet property="btnSave" destination="vOH-kv-9K7" id="wTT-lh-5uz"/>
+                <outlet property="btnShare" destination="iXF-hK-ShO" id="YvV-zI-tS9"/>
+                <outlet property="buttonsView" destination="f7D-1c-A7H" id="MMo-oh-unU"/>
+                <outlet property="img_avatar" destination="L1Q-sT-sWR" id="CEB-Q4-FWE"/>
+                <outlet property="lblContent" destination="mE4-8O-DhK" id="BEt-mP-LNd"/>
+                <outlet property="lblLikeNum" destination="pH5-WS-CBt" id="lEi-s9-sXu"/>
+                <outlet property="lblTile" destination="b6S-px-GFw" id="vSb-na-xIb"/>
+                <outlet property="lblUsrFname" destination="mIZ-uD-hiC" id="3Wj-40-YIV"/>
+                <outlet property="lblUsrname" destination="cGa-Bc-Djn" id="2vg-tX-KKN"/>
+                <outlet property="lblViewNum" destination="cwk-Yx-Ye8" id="qUM-3J-3g9"/>
+                <outlet property="photo" destination="wjX-cN-IPp" id="hBW-Ea-jYo"/>
+            </connections>
+            <point key="canvasLocation" x="321.5" y="351.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btnFavorite.png" width="75" height="15"/>
+        <image name="btnSave.png" width="56" height="15"/>
+        <image name="btnShare.png" width="59" height="17"/>
+        <image name="cadie3.jpg" width="600" height="540"/>
+        <image name="cadie4.jpg" width="600" height="337"/>
+    </resources>
+</document>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ProximaNova-Regular.otf">
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+        <mutableArray key="ProximaNova-Semibold.otf">
+            <string>ProximaNova-Semibold</string>
+            <string>ProximaNova-Semibold</string>
+            <string>ProximaNova-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SecondPhotoTableViewCell" id="KGk-i7-Jjw" customClass="SecondPhotoTableViewCell" customModule="Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="470"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="469"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cadie3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uX1-QG-pvm">
+                        <rect key="frame" x="16" y="16" width="46" height="46"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carol Berry" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RU5-Ho-vbN">
+                        <rect key="frame" x="74" y="21" width="300" height="18"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14.5"/>
+                        <color key="textColor" red="0.29803921568627451" green="0.68627450980392157" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Justtin Winery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdj-46-zof">
+                        <rect key="frame" x="74" y="40" width="300" height="18"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
+                        <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="91C-GB-IpH" userLabel="Button View">
+                        <rect key="frame" x="0.0" y="415" width="375" height="48"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gW8-SA-zUp">
+                                <rect key="frame" x="286" y="13" width="59" height="22"/>
+                                <state key="normal" image="btnShare.png"/>
+                                <connections>
+                                    <action selector="sharePhoto:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Xzt-g2-zGe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsi-KA-mCi">
+                                <rect key="frame" x="145" y="14" width="75" height="22"/>
+                                <state key="normal" image="btnFavorite.png"/>
+                                <connections>
+                                    <action selector="saveFavoriteData:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="HFm-eI-Xs9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgo-tg-ilY">
+                                <rect key="frame" x="28" y="12" width="58" height="22"/>
+                                <state key="normal" image="img_Save2.png">
+                                    <color key="titleColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="savePhoto:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="p0L-Tf-dql"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="450k Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcl-tn-v30">
+                        <rect key="frame" x="20" y="386" width="80" height="17"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                        <color key="textColor" red="0.71372549019607845" green="0.71372549019607845" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="450 Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BU1-IZ-OeJ">
+                        <rect key="frame" x="105" y="386" width="90" height="17"/>
+                        <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                        <color key="textColor" red="0.65490196078431373" green="0.65490196078431373" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Jd-Us-u5c" userLabel="Photo View">
+                        <rect key="frame" x="10" y="73" width="353" height="301"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cadie4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bjS-YZ-0sq">
+                                <rect key="frame" x="0.0" y="0.0" width="353" height="197"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Epic blade journey made into travel series" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VoP-Yi-b8H">
+                                <rect key="frame" x="14" y="209" width="327" height="19"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
+                                <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyq-Yq-9GN">
+                                <rect key="frame" x="14" y="235" width="327" height="73"/>
+                                <string key="text">A video of the pair leaving the lighthouse at Cape Reinga at the start of their 60-day, 1452-kilometre journey to Bluff shows them struggling...</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14.5"/>
+                                <color key="textColor" red="0.34509803921568627" green="0.34509803921568627" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnFavorite" destination="Nsi-KA-mCi" id="Xi0-4T-GWU"/>
+                <outlet property="btnSave" destination="hgo-tg-ilY" id="8PO-ZT-Tsh"/>
+                <outlet property="btnShare" destination="gW8-SA-zUp" id="Hdp-0L-Y1b"/>
+                <outlet property="buttonsView" destination="91C-GB-IpH" id="KLW-RN-2Os"/>
+                <outlet property="img_avatar" destination="uX1-QG-pvm" id="Mlb-eI-CUt"/>
+                <outlet property="lblContent" destination="Uyq-Yq-9GN" id="zJB-JJ-C06"/>
+                <outlet property="lblLikeNum" destination="fcl-tn-v30" id="T4o-4u-LcD"/>
+                <outlet property="lblTile" destination="VoP-Yi-b8H" id="SEq-cE-xWJ"/>
+                <outlet property="lblUsrFname" destination="RU5-Ho-vbN" id="1wN-wj-bGm"/>
+                <outlet property="lblUsrname" destination="Zdj-46-zof" id="Ypa-4F-C8G"/>
+                <outlet property="lblViewNum" destination="BU1-IZ-OeJ" id="v2z-Na-x5O"/>
+                <outlet property="photo" destination="bjS-YZ-0sq" id="I47-4f-8Va"/>
+                <outlet property="photoView" destination="1Jd-Us-u5c" id="QK3-fn-0Cu"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btnFavorite.png" width="75" height="15"/>
+        <image name="btnShare.png" width="59" height="17"/>
+        <image name="cadie3.jpg" width="600" height="540"/>
+        <image name="cadie4.jpg" width="600" height="337"/>
+        <image name="img_Save2.png" width="58" height="15"/>
+    </resources>
+</document>
