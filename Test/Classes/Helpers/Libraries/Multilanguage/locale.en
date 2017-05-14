@@ -1,0 +1,169 @@
+{
+
+"AppName" : "MEI REVE",
+
+"Register" : "Register",
+"Login" : "Log in",
+"or" : "or",
+"RegWithEmail" : "Register with email",
+"Email" : "Email",
+"Pwd" : "Password",
+"ForgotPwd" : "Forgot Password?",
+"MissingEmailPass" : "Email and Password are required",
+"MissingEmail" : "Email is required",
+"MissingPass" : "Password is required",
+"InvalidEmail" : "Oops! Please check your email address to make sure it's valid.",
+"NoNetworkConnection" : "No network connection",
+
+"MissingFullName" : "Full Name is required",
+"MissingCountry" : "Country is required",
+"InvalidPassword" : "Your password must contain 8 characters and include one capital letter and one number. Please review your password and make sure it confirms to these requirements.",
+"Error" : "Error",
+"PleaseCheckPwd" : "Please Check Your Password",
+"FullName" : "Full Name",
+"Country" : "Country",
+"GetStarted" : "Get Started",
+"AllRequired" : "All Fields are required",
+
+
+"Welcome" : "Welcome",
+"SelectLanguage" : "Select a language\npreference",
+"Language" : "Languages",
+"English" : "English",
+"SimplifiedChinese" : "中文",
+
+"Concierge" : "Concierge",
+"ExploreNYC" : "Explore NYC",
+"MyPlaces" : "My Places",
+
+"Next" : "Next",
+"OnBoardingContent" : "Mei Reve helps you find cool places in New York recommended by New Yorkers - not other tourists.\n\nIt's also a fast and easy way for your hotel concierge to give you great recommendations and deals!",
+
+"Discover" : "Discover",
+"Shopping" : "Shopping",
+"Food" : "Food",
+"Drink" : "Drink",
+"Sites" : "Sites",
+
+"EnterConciergeCode": "Enter A Concierge Code",
+"MeiReveConciergeList": "Mei Reve Concierge List",
+"ConciergeIntro": "If you don't see a concierge to give you a code, Mei Reve has also push together great to-do lists for you to pick from below!",
+"Neighborhoods" : "Neighborhoods",
+"Theme" : "Theme",
+"EnterAnotherCode" : "Enter another code",
+
+"AddMoreToMyList" : "Add more to my places",
+"ViewMapOfAllPlaces" : "View Map Of All Places",
+"MyPlacesInfo" : "Here's a list of selected places based off of the selections you and/or your concierge picked!",
+
+"FinishedSelecting" : "Finished Selecting",
+
+"ForLifeThreatening" : "For Life-Threatening Issues",
+"ForNoLifeThreatening" : "For None Life-Threatening Issues",
+"Call" : "Call",
+"Call911Info" : "Call 911 when you are worried about severe illness, fire, natural disaster, or any occurrence when your life or someone else's is threatened.",
+"Call311Info" : "Call 311 for issures such as theft, bad cab drivers, and other issues.",
+
+"GotIt" : "Got It!",
+"FirstTimePopupIntro" : "Mei Reve carefully curates our list of suggestions for you! Use tools below to further enhance your experience!",
+"AddMyPlacesIntro1" : "If you like the place currently profiled, you can ",
+"Add" : "Add",
+"AddMyPlacesIntro2" : " it to our itenirary in ",
+
+"RefreshIntro1" : "Press the ",
+"Refresh" : "Refresh",
+"RefreshIntro2" : " button if you want to see another place.",
+
+"FilterIntro1" : "Use the ",
+"Filter" : "Filter",
+"FilterIntro2" : " feature to customize which places come up for you.",
+
+"Home" : "Home",
+"Preferences" : "Preferences",
+"Emergency" : "Emergency",
+"LogOut" : "Log out",
+
+"As" : "as",
+
+"LoginFailed" : "Login Failed. Try Again!",
+
+"CreateAccountSuccess" : "Your account has been created successfully",
+
+"ResetYourPwdNow" : "Reset your password now",
+"EnterEmailAdd" : "Enter your email address",
+"Enter" : "Enter",
+
+"ForgotPwdRequestAnEmailSent" : "An email has been sent",
+"ForgotPwdRequestClickYourEmail" : "Click your email now to reset your password",
+
+"ChangeYourPwd" : "Set new password",
+"EnterCurrentPwd" : "Old Password",
+"EnterNewPwd" : "New Password",
+"EnterConfirmPwd" : "Confirm New Password",
+"Finish" : "Finish",
+
+"PwdNotMatch" : "Password does not match the confirm password",
+
+"PwdReset" : "Your password has been reset",
+
+"InputIncorrect" : "Oops! Please check your info to make sure it’s filled out correctly.",
+"InputsIncorrect" : "Oops! Please check your info to make sure they're filled out correctly.",
+
+"TypeEmail" : "Type Email Address",
+"ResetPassword" : "Reset Password",
+"Cancel" : "Cancel",
+
+"Back" : "Back",
+"PwdSuccessMessage" : "Check your email.\n\nA temporary password\nhas been sent to you.",
+
+"PwdInvalidErrorMessage" : "Oops!\n\nPlease check your passsword to make sure that it's filled out matched to these requirements:\n* Only include alphanumeric\n* At least 8 characters\n* At least 1 capital letter and at least 1 number",
+"Done" : "Done",
+"HasForgotPwd" : "Please change a new password and confirm it.",
+"Nointernetconnection" : "No internet connection",
+"ConciergeGeneralInfo" : "General info about your surrounding area can go here. With more text space available.",
+"ConciergeCustomInfo" : "Custom info about the hotel or the concierge. Local info or tips about getting discounts using their name.",
+"ConciergeCustomInfoForDefault" : "General info about your surrounding area can go here. With more text space available.",
+
+"SList" : "'s list",
+"FromThe" : "from the ",
+"Hotel" : " Hotel",
+
+"NoData" : "No data. Pull to refresh!",
+"GoBack" : "Go back",
+
+"ReadMore" : "READ MORE",
+"ShowLess" : "SHOW LESS",
+"NearestSubways" : "NEAREST SUBWAYS",
+"Website" : "WEBSITE",
+"Share" : "SHARE",
+"HelpfulHints" : "HELPFUL HINTS",
+"Tags" : "TAGS",
+"AddNotes" : "ADD NOTES",
+"AddNotesPlaceHolder" : "Type here to add personalized notes.",
+"NoInformations" : "No Informations.",
+"ShareIntro" : "SHARE YOUR NOTES, PICS, AND THE MEI REVE PROFILE",
+"SendToFriend" : "Send to friend",
+"AddAMessage" : "ADD A MESSAGE",
+"Name" : "Name",
+"TypeAMessageToShare" : "Type here for a custom message to your friend about this place!",
+
+"MessageSent" : "Message Sent!",
+"BackToProfile" : "Back To Profile",
+
+"CuisinePreference" : "CUISINE PREFERENCE",
+"FilterResult" : "Filter Results",
+"NotFoundData":"Not found data with your chossen.",
+"NotSupportMakePhoneCall":"Your device does not support to make phone calls.",
+"PleaseselectShopping":"Please select Shopping",
+"PleaseselectFoodDrink":"Please select Food & Drink",
+"PleaseselectSites":"Please select Sites",
+
+"InvalidConciergeCode":"Invalid Concierge Code",
+
+"ConfirmLogout":"Are you sure you want to\nlog out?",
+"Yes":"Yes",
+"No":"No",
+
+"ConfirmRemoveProfile":"Are you sure you want to remove this profile from\nyour list?",
+
+}

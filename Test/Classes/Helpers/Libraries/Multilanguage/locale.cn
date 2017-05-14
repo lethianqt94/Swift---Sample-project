@@ -1,0 +1,165 @@
+{
+
+"AppName" : "MEI REVE",
+
+"Register" : "寄存器",
+"Login" : "登录",
+"or" : "或",
+"RegWithEmail" : "注册电子邮件",
+"Email" : "电子邮件",
+"Pwd" : "密码",
+"ForgotPwd" : "忘记密码？",
+"MissingEmailPass" : "电子邮件和密码是必需的",
+"MissingEmail" : "电子邮件是必需的",
+"MissingPass" : "请输入密码",
+"InvalidEmail" : "哎呀！请检查您的电子邮件地址，以确保它是有效的。",
+"NoNetworkConnection" : "没有网络连接",
+
+"MissingFullName" : "全名是必需的",
+"MissingCountry" : "国家需要",
+"InvalidPassword" : "您的密码必须包含8个字符，包括一个大写字母和一个数字。请检查您的密码，并确保它证实了这些要求。",
+"Error" : "错误",
+"PleaseCheckPwd" : "请检查您的密码",
+"FullName" : "全名",
+"Country" : "国家",
+"GetStarted" : "入门",
+"AllRequired" : "各个领域都需要",
+
+"Welcome" : "欢迎",
+"SelectLanguage" : "选择语言",
+"Language" : "语言",
+"English" : "English",
+"SimplifiedChinese" : "中文",
+
+"Concierge" : "门房",
+"ExploreNYC" : "探索NYC",
+"MyPlaces" : "我的位置",
+
+"Next" : "下一个",
+"OnBoardingContent" : "玫丽和帮助您找到纽约人建议在纽约阴凉的地方 - 而不是其他游客.\n\n它也是你的酒店礼宾部给你带来很大的建议和交易的快速简便的方法!",
+
+"Discover" : "发现",
+"Shopping" : "购物",
+"Food" : "餐饮",
+"Drink" : "喝",
+"Sites" : "网站",
+
+"EnterConciergeCode": "输入礼宾码",
+"MeiReveConciergeList": "玫丽和礼宾列表",
+"ConciergeIntro": "如果您没有看到礼宾接待给你一个代码，梅丽和还大的待办事项列表推合供您挑选以下!",
+"Neighborhoods" : "邻里",
+"Theme" : "主题",
+"EnterAnotherCode" : "输入其他代码",
+
+"AddMoreToMyList" : "更添加到我的地方",
+"ViewMapOfAllPlaces" : "查看地图所有的地方",
+"MyPlacesInfo" : "下面是根据您关闭和/或您的礼宾挑选择的选择地点的清单!",
+
+"FinishedSelecting" : "完成选择",
+
+"ForLifeThreatening" : "危及生命的问题",
+"ForNoLifeThreatening" : "对于非威胁生命的问题",
+"Call" : "呼叫",
+"Call911Info" : "拨打911，当你担心严重的疾病，火灾，自然灾害，或者当你的生命或他人受到威胁的发生。",
+"Call311Info" : "拨打311，如盗窃，不良出租车司机和其他问题的问题。",
+
+"GotIt" : "得到它了！",
+"FirstTimePopupIntro" : "玫丽和精心策划我们的建议名单为您服务！使用下面的工具来进一步提高你的体验！",
+"AddMyPlacesIntro1" : "如果你喜欢的地方目前异形，你可以",
+"Add" : "加",
+"AddMyPlacesIntro2" : "它在你的行程",
+
+"RefreshIntro1" : "按",
+"Refresh" : "刷新",
+"RefreshIntro2" : "按钮，如果你想看到另一个地方",
+
+"FilterIntro1" : "使用",
+"Filter" : "过滤",
+"FilterIntro2" : "功能自定义哪些地方拿出你",
+
+"Home" : "家",
+"Preferences" : "优先",
+"Emergency" : "急",
+"LogOut" : "登出",
+
+"As" : "如同",
+
+"LoginFailed" : "登录失败。 再试一次！",
+"CreateAccountSuccess" : "您的帐户已成功创建",
+
+"ResetYourPwdNow" : "现在重置您的密码",
+"EnterEmailAdd" : "输入你的电子邮箱地址",
+"Enter" : "输入",
+
+"ForgotPwdRequestAnEmailSent" : "电子邮件已发送",
+"ForgotPwdRequestClickYourEmail" : "点击您的电子邮件现在重置您的密码",
+
+"ChangeYourPwd" : "设置新密码",
+"EnterCurrentPwd" : "旧密码",
+"EnterNewPwd" : "新密码",
+"EnterConfirmPwd" : "确认新密码",
+"Finish" : "完",
+
+"PwdNotMatch" : "密码不匹配确认密码",
+"PwdReset" : "您的密码已重置",
+
+"InputIncorrect" : "哎呀！请检查您的信息，以确保它的正确填写。",
+"InputsIncorrect" : "哎呀！请检查您的信息，以确保他们正确地填写。",
+
+"TypeEmail" : "键入电子邮件地址",
+"ResetPassword" : "重设密码",
+"Cancel" : "取消",
+
+"Back" : "背部",
+"PwdSuccessMessage" : "查看你的电子邮件。\n\n临时密码\n已发送给您。",
+
+"PwdInvalidErrorMessage" : "哎呀！\n\n请检查您的密码，以确保它的填写符合以下要求：\n* 只包含字母数字\n* 至少8个字符\n* 至少1个大写字母和至少1号",
+"Done" : "做",
+"HasForgotPwd" : "请更换新密码并确认。",
+"Nointernetconnection" : "没有网络连接",
+"ConciergeGeneralInfo" : "关于你的周边地区一般信息可以去这里。随着越来越多的文字空间可用。",
+"ConciergeCustomInfo" : "有关酒店或礼宾自定义信息。本地信息或如何使用他们的名字得到折扣的技巧。",
+"ConciergeCustomInfoForDefault" : "关于你的周边地区一般信息可以去这里。随着越来越多的文字空间可用。",
+
+"SList" : "的名单",
+"FromThe" : "来自",
+"Hotel" : "饭店",
+
+"NoData" : "没有数据。拉刷新！",
+"GoBack" : "回去",
+"ReadMore" : "阅读更多",
+"ShowLess" : "显示较少",
+"NearestSubways" : "最接近地点地铁",
+"Website" : "网站",
+"Share" : "分享",
+"HelpfulHints" : "有帮助的提示",
+"Tags" : "附以签条",
+"AddNotes" : "笔录",
+"AddNotesPlaceHolder" : "键入此处添加个性化的笔记.",
+"NoInformations" : "没有信息.",
+"ShareIntro" : "共享您的笔记，图片和MEI REVE简介",
+"SendToFriend" : "发送给朋友",
+"AddAMessage" : "添加一条消息",
+"Name" : "名称",
+"TypeAMessageToShare" : "键入这里自定义消息给您的朋友这个地方！",
+
+"MessageSent" : "邮件已发送！",
+"BackToProfile" : "返回简介",
+
+"CuisinePreference" : "烹饪偏好",
+"FilterResult" : "筛选结果",
+"NotFoundData":"未找到與您所選擇的數據",
+"NotSupportMakePhoneCall":"您的設備不支持撥打電話",
+"PleaseselectShopping":"请选择购物",
+"PleaseselectFoodDrink":"请选择食物和饮料",
+"PleaseselectSites":"请选择站点",
+
+"InvalidConciergeCode":"无效的礼宾代码",
+
+"ConfirmLogout":"你确定要注销？",
+"Yes":"是",
+"No":"没有",
+
+"ConfirmRemoveProfile":"你确定你想从列表中删除此配置文件？",
+
+}
